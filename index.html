@@ -8,15 +8,32 @@
     <title>Age Calculator</title>
 </head>
 <body>
-    <h1>hello world</h1>
-    <form name = submitForm id="myForm" action="">
-        <label for="userAge">
-            <h4>Date of Birth?</h4>
-            <input type="date" name="userDate" id="userDate">
-            <input type="submit" value="" class="submitInput" id= "submitInput">
-            <p><button class="submitButton" id="submitButton">Submit</button></p>
-        </label>
-    </form>
+    <div class="all-In-One container-fluid">
+        <div class="row">
+            <div class="bouncer container-fluid">
+                <div class="row">
+                    <div class="bouncerIntroWords container-fluid"> 
+                        <div class="row">
+                            <div class="col-3"></div>
+                            <div class="legal col-9">
+                                <h3>Hang on... You legal? I'm gonna need to see some ID.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userId">
+                        <div class="userImg">
+                            <img class="img-fluid" src="https://placehold.co/600x400" alt="placeholder image for the users face">
+                        </div>
+                       <div class="userAge">
+                            <h5>Date of Birth</h5>
+                            <input type="date" name="userBday" id="userBday">
+                            <button><h6>Check!</h6></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--all-In-One END-->
 </body>
 <script type="text/javascript" src="apps.js"></script>
 </html>

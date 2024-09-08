@@ -1,4 +1,21 @@
-h1{
-    background-color: black;
-    color: pink;
+.bouncer{
+    background-image: url(../images/bouncer\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.legal{
+    background-color: white;
+}
+
+.userId{
+    background-image: url(../images/id\ image.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.userImg img{
+    width: 20px;
+}
+

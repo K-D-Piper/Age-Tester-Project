@@ -44,7 +44,7 @@ if (today - userDate.value >= 21){
 
     return
 }) //arrow funciton end. Allows user's birthday to console log when clicked
-*/
+
 //TODAY'S DATE
 let today = new Date().toLocaleDateString();
 console.log(today); //local date
@@ -75,7 +75,7 @@ submitButton = document.getElementById("submitButton")
 console.log(submitButton) //logs nowhere
 
 //arrow function below
-/*
+
 let whenSubmit = document.getElementById("submit") //connects submit button to JS (now can affect it)
 
 whenSubmit.addEventListener("click", () => {
@@ -95,4 +95,5 @@ whenSubmit.addEventListener("click", () => {
     }
         return
     }) //arrow funciton end. Allows user's birthday to console log when clicked
+
 */
